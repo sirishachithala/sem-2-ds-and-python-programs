@@ -1,0 +1,11 @@
+a=[18,45,27,19,2]
+key=19
+f=0
+for i in range(len(a)):
+  if key==a[i]:
+    f=1
+    break
+if f==1:
+  print(f"{key} at found {i} position")
+else:
+  print("key not found")

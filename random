@@ -1,0 +1,11 @@
+import random
+num=[random.randint(1,100) for i in range(20)]
+print(num)
+print("Maximum number:",max(num))
+print("minimum number:",min(num))
+print("average number:",sum(num)//len(num))
+ec=0
+for i in num:
+  if i%2==0:
+    ec=ec+1
+print("Even numbers are:",ec)
